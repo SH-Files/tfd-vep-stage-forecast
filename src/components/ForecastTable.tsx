@@ -9,22 +9,14 @@ import {
 import { formatCountDown, formatDateTime } from "../utils/formatting";
 
 const ForecastTable = ({ data }: any) => {
-  const dateOptions = {
-    weekday: "long",
-    year: "numeric",
-    month: "long",
-    day: "numeric",
-    hour12: false,
-  };
-
   return (
     <Table component={Paper}>
       <TableHead>
         <TableRow>
           <TableCell align="center">Stage Name</TableCell>
           <TableCell align="center">
-            <span style={{ color: "#6fbf73" }}>Stage active since</span> / Spawn
-            in
+            <span style={{ color: "#6fbf73" }}>Stage active since</span> / Stage
+            Spawns In
           </TableCell>
           <TableCell align="center">Spawn Date</TableCell>
         </TableRow>

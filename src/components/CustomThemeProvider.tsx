@@ -12,7 +12,6 @@ const CustomThemeProvider = ({ children }: any) => {
   return (
     <ThemeProvider theme={darkTheme}>
       <CssBaseline />
-      {/* @ts-ignore */}
       <Container sx={{ py: 4 }} maxWidth="xl">
         {children}
       </Container>

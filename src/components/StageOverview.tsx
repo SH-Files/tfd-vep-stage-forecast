@@ -9,7 +9,7 @@ const StageOverview = () => {
   return (
     <Box>
       <Typography variant="h4" align="center">
-        Stage Overview
+        Stage overview
       </Typography>
       <Box
         sx={{
@@ -21,7 +21,7 @@ const StageOverview = () => {
         }}
       >
         {stages.map((stage) => (
-          <Card sx={{ width: 384, border: "2px solid #515151", m: 2 }}>
+          <Card sx={{ width: 384, border: "1px solid #515151", m: 2 }}>
             <CardMedia sx={{ height: 140 }} image={stage.img} />
             <CardContent sx={{ p: 3 }}>
               <Typography align="center">{stage.name}</Typography>

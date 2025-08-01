@@ -13,12 +13,12 @@ const ForecastTable = ({ data }: any) => {
     <Table component={Paper}>
       <TableHead>
         <TableRow>
-          <TableCell align="center">Stage Name</TableCell>
+          <TableCell align="center">Stage name</TableCell>
           <TableCell align="center">
             <span style={{ color: "#6fbf73" }}>Stage active since</span> / Stage
-            Spawns In
+            spawns in
           </TableCell>
-          <TableCell align="center">Spawn Date</TableCell>
+          <TableCell align="center">Spawn date</TableCell>
         </TableRow>
       </TableHead>
       <TableBody>

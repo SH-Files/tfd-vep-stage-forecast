@@ -6,7 +6,7 @@ import {
   TableHead,
   TableRow,
 } from "@mui/material";
-import { formatCountDown, formatDateTime } from "../utils/formatting";
+import { formatCountDown, formatDate } from "../utils/formatting";
 
 const ForecastTable = ({ data }: any) => {
   return (
@@ -58,7 +58,7 @@ const ForecastTable = ({ data }: any) => {
                   fontWeight: countdown < 0 && 900,
                 }}
                 align="center"
-              >{`${formatDateTime(date)}`}</TableCell>
+              >{`${formatDate(date)}`}</TableCell>
             </TableRow>
           );
         })}

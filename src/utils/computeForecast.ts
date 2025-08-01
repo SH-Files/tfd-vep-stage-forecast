@@ -15,8 +15,6 @@ const computeForecast = () => {
     }
   });
 
-  console.log(stages);
-
   return stages;
 };
 

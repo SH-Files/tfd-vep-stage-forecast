@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.js": "/tfd-vep-stage-forecast/static/js/main.21f0e38f.js",
+    "main.js": "/tfd-vep-stage-forecast/static/js/main.ddd81570.js",
+    "static/media/stageC.png": "/tfd-vep-stage-forecast/static/media/stageC.83360ba14b120117d748.png",
     "static/media/stageA.png": "/tfd-vep-stage-forecast/static/media/stageA.d6194b8259422df1ccb7.png",
-    "static/media/stageB.png": "/tfd-vep-stage-forecast/static/media/stageB.e382ac933cb53de2c001.png",
-    "static/media/stageC.png": "/tfd-vep-stage-forecast/static/media/stageC.e382ac933cb53de2c001.png",
-    "static/media/stageD.png": "/tfd-vep-stage-forecast/static/media/stageD.e382ac933cb53de2c001.png",
     "static/media/stageE.png": "/tfd-vep-stage-forecast/static/media/stageE.e382ac933cb53de2c001.png",
+    "static/media/stageB.png": "/tfd-vep-stage-forecast/static/media/stageB.1dd12453090162360083.png",
+    "static/media/stageD.png": "/tfd-vep-stage-forecast/static/media/stageD.435bbb411b8d4d866c34.png",
     "index.html": "/tfd-vep-stage-forecast/index.html",
-    "main.21f0e38f.js.map": "/tfd-vep-stage-forecast/static/js/main.21f0e38f.js.map"
+    "main.ddd81570.js.map": "/tfd-vep-stage-forecast/static/js/main.ddd81570.js.map"
   },
   "entrypoints": [
-    "static/js/main.21f0e38f.js"
+    "static/js/main.ddd81570.js"
   ]
 }

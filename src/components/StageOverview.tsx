@@ -20,14 +20,29 @@ const StageOverview = () => {
           mb: 4,
         }}
       >
-        {stages.map((stage) => (
-          <Card sx={{ width: 384, m: 2 }}>
-            <CardMedia sx={{ height: 140 }} image={stage.img} />
-            <CardContent sx={{ p: 3 }}>
-              <Typography align="center">{stage.name}</Typography>
-            </CardContent>
-          </Card>
-        ))}
+        {stages.map((stage) => {
+          const isActive = stage.forecasts.some(
+            (forecast) => forecast - Date.now() < 0
+          );
+
+          return (
+            <Card sx={{ width: 384, m: 2 }}>
+              <CardMedia sx={{ height: 140 }} image={stage.img} />
+              <CardContent sx={{ p: 3 }}>
+                <Typography
+                  align="center"
+                  // @ts-ignore
+                  sx={{
+                    color: isActive && "#6fbf73",
+                    fontWeight: isActive && 900,
+                  }}
+                >
+                  {stage.name}
+                </Typography>
+              </CardContent>
+            </Card>
+          );
+        })}
       </Box>
     </Box>
   );

@@ -14,9 +14,16 @@ export const formatCountDown = (ms: number) => {
 };
 
 export const formatDate = (date: Date) => {
+  const time = date
+    .toLocaleString("en-US", { hour: "numeric", hour12: true })
+    .split(" ");
+
+  const hours = zeroPad(parseInt(time[0]));
+  const timeSuffix = time[1];
+
   return `${date.getFullYear()}-${zeroPad(date.getMonth())}-${zeroPad(
     date.getDate()
-  )} ${zeroPad(date.getHours())}:${zeroPad(date.getMinutes())}:${zeroPad(
+  )} ${hours}:${zeroPad(date.getMinutes())}:${zeroPad(
     date.getSeconds()
-  )}`;
+  )} ${timeSuffix}`;
 };

@@ -13,7 +13,7 @@ const ForecastTable = ({ data }: any) => {
     <Table component={Paper}>
       <TableHead>
         <TableRow>
-          <TableCell align="center">Stage name</TableCell>
+          <TableCell width={400}>Stage name</TableCell>
           <TableCell align="center">
             <span style={{ color: "#6fbf73" }}>Stage active since</span> / Stage
             spawns in
@@ -35,7 +35,7 @@ const ForecastTable = ({ data }: any) => {
                   color: countdown < 0 && "#6fbf73",
                   fontWeight: countdown < 0 && 900,
                 }}
-                align="center"
+                width={400}
               >
                 {name}
               </TableCell>

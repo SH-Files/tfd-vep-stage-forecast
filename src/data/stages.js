@@ -6,31 +6,31 @@ import imgStageE from "../images/stageE.png";
 
 const stages = [
   {
-    name: "Stage A",
+    name: "Eroded Vulgus Reactor",
     anchorResetDate: new Date(Date.UTC(2025, 6, 28, 7)),
     img: imgStageA,
     forecasts: [],
   },
   {
-    name: "Stage B",
+    name: "Eroded Vulgus Underground Facilities",
     anchorResetDate: new Date(Date.UTC(2025, 6, 29, 7)),
     img: imgStageB,
     forecasts: [],
   },
   {
-    name: "Stage C",
+    name: "Eroded Ancenstors Ruins",
     anchorResetDate: new Date(Date.UTC(2025, 6, 30, 7)),
     img: imgStageC,
     forecasts: [],
   },
   {
-    name: "Stage D",
+    name: "Amorphous Contamination Zone",
     anchorResetDate: new Date(Date.UTC(2025, 6, 31, 7)),
     img: imgStageD,
     forecasts: [],
   },
   {
-    name: "Stage E",
+    name: "Twisted Ancestors' Facility",
     anchorResetDate: new Date(Date.UTC(2025, 7, 1, 7)),
     img: imgStageE,
     forecasts: [],
